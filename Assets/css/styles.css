@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: #dad4d346;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-top: 1rem;
+    letter-spacing: .1rem;
+    margin-bottom: 3rem;
+
+}
+
+header nav {
+    width: 100%;
+
+}
+
+nav ul {
+    list-style: none;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    padding: 1.5rem;
+}
+
+nav ul li a {
+    color: #4b4b4d;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    /* font-size: 1.1rem; */
+
+}
+
+nav ul li a:hover {
+    color: #aaaaaefa;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: normal;
+    border-bottom: 4px solid black;
+    margin-bottom: .5rem;
+
+}
+
+header div h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+header div img {
+    width: 20%;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    /* justify-content: space-between; */
+}
+
+main section {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+html h3 {
+    padding-bottom: .5rem;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+main img {
+
+    max-width: 100%;
+    max-height: 100%;
+    padding: .2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+main img:active {
+    /* width: 50%; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transform: scale(1.3);
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
+    max-width: 100%;
+
+
+}
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* align-content: center; */
+    /* border: #6464b1 solid 1px; */
+    /* background-color: white; */
+}
+
+.form-items button {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 1.5rem;
+    background-color: rgb(85, 85, 137);
+    align-self: center;
+    color: #fff;
+}
+
+form {
+    background-color: #4b4b4d;
+    opacity: .7;
+    min-height: 100%;
+
+}
+
+form>input,
+textarea {
+    margin-bottom: 1rem;
+    min-width: 100%;
+}
+
+.css {}
+
+.js {}
