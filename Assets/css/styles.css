@@ -135,6 +135,7 @@ main img {
     height: 100%;
     padding: .2rem;
     transition: transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 main img:active {
@@ -171,6 +172,7 @@ main img:active {
     background-color: rgb(85, 85, 137);
     align-self: center;
     color: #fff;
+    cursor: pointer;
 }
 
 form {
@@ -190,4 +192,5 @@ textarea {
 footer {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
